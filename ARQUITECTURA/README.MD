@@ -1,6 +1,6 @@
 # Justificación del uso de Datamart y Análisis Prospectivo en la Gestión de la Inversión Pública
 
-La **Subherencia de Gestión de Inversiones** implica analizar información proveniente de diferentes fuentes del Estado (planes de inversión, presupuestos, ejecución financiera, evaluaciones socioeconómicas, estudios de factibilidad, etc.). Este proceso requiere no solo consolidar datos históricos de manera confiable, sino también anticipar escenarios futuros que orienten la aprobación y priorización de proyectos estratégicos.
+La **Subgerencia de Gestión de Inversiones** implica analizar información proveniente de diferentes fuentes del Estado (planes de inversión, presupuestos, ejecución financiera, evaluaciones socioeconómicas, estudios de factibilidad, etc.). Este proceso requiere no solo consolidar datos históricos de manera confiable, sino también anticipar escenarios futuros que orienten la aprobación y priorización de proyectos estratégicos.
 
 ---
 
