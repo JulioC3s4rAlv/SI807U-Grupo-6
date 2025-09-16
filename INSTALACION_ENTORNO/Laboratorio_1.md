@@ -13,20 +13,19 @@
 ---
 
 ## Software requerido
-
-![Descarga](INSTALACION_ENTORNO/Descarga.png)
+![Descarga](Descarga.png)
 
 ---
 
 ## 1. Instalación de VirtualBox
 
-![Instalación de VirtualBox](ruta/a/imagen1.png)
+Falta evidencia
 
 ---
 
 ## 2. Importación del HDP Sandbox
 
-![Importar OVA](ruta/a/imagen2.png)
+![Importar OVA](Caputa_1.png)
 
 4. Asignar recursos recomendados:
 
