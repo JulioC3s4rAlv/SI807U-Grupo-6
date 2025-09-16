@@ -1,4 +1,4 @@
-# Instalación de Hortonworks Sandbox en VirtualBox
+# 1. Instalación de Hortonworks Sandbox en VirtualBox
 
 
 ---
@@ -19,7 +19,7 @@
 
 ## 1. Instalación de VirtualBox
 
-Falta evidencia
+### Ya se contaba con el VirtualBox Instalado
 
 ---
 
@@ -46,13 +46,15 @@ Falta Evidencia
 
 4. Cambiar la contraseña del usuario `root` 
 
-![Inicio de Ambari](ruta/a/imagen5.png)
+![Inicio de Ambari](Captura_5.png)
+
 
 5. También puedes usar el usuario por defecto:  
    - **Usuario:** `maria_dev`  
    - **Contraseña:** `maria_dev`
 
-![Inicio de Ambari](ruta/a/imagen5.png)
+![Inicio de Ambari](Captura_6.png)
+![Inicio de Ambari](Captura_7.png)
 
 
 6. Verificar que los servicios principales estén activos:  
@@ -62,20 +64,25 @@ Falta Evidencia
    - Spark  
    - Zeppelin
 
-![Servicios activos](ruta/a/imagen6.png)
+![Servicios activos](validacion_tools.png)
 
 ---
 
 ## 5. Comprobación inicial
 
-Puedes realizar algunos comandos desde la terminal de la VM o usando el WebShell Client:
+![Validacion](lista_hdfs.png)
 
-```bash
-# Listar archivos en HDFS
-hdfs dfs -ls /
+---
+# 2. EXPLORANDO AMBARI
+## Dashboards
+![Inicio de Ambari](Captura_7.png)
+## HOSTS
+![Exploracion](Captura_8.png)
+## ALERTAS
+![Exploracion](Captura_9.png)
 
-# Ver versión de Spark
-spark-shell --version
-
-# (Opcional) Reiniciar contraseña de Ambari
-ambari-admin-password-reset
+---
+# 3. Subida del archivo
+![Archivo](Captura_10.png)
+![Archivo](Captura_11.png)
+![Archivo](Captura_12.png)
