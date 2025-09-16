@@ -27,14 +27,16 @@ Acorde a lo explicado se procedió a importar el OVA descargado:
 <p align="center">
    <img src="IMAGENES/Captura_3.png" alt="Inicio de Ambari" width="600">
    <img src="IMAGENES/Captura_4.png" alt="Inicio de Ambari" width="600">
+   <img src="IMAGENES/Maquina_Corriendo.png" alt="Inicio de Ambari" width="600">
 </p>
 
 ### 1.5. Cambiar la contraseña del usuario `root` 
+   - **Puertos:** `1080` o `4200`
 <p align="center">
    <img src="IMAGENES/Captura_5.png" alt="Inicio de Ambari" width="600">
 </p>
 
-### 1.6. Verificación del usuario por defecto:  
+### 1.6. Verificación del usuario por defecto:
    - **Usuario:** `maria_dev`  
    - **Contraseña:** `maria_dev`
 <p align="center">
