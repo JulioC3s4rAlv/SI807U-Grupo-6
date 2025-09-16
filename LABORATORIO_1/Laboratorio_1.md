@@ -91,8 +91,14 @@ Preview del archivo en el entorno de Ambari:
    <img src="IMAGENES/Captura_12.png" alt="Archivo" height="300">
 </p>
 
+Posteriormente se generó la Tabla que recepcionará la información del archivo y se cargaron los datos:
+
+<p align="center">
+   <img src="IMAGENES/Captura_13.png" alt="Archivo" height="300">
+</p>
+
 ### 3.2. Exploración Inicial del Archivo
-Usando la herramienta de ´Query´ se realizó la consulta de llamado a los datos del archivo:
+Usando la herramienta de `Query` se realizó la consulta de llamado a los datos del archivo:
 <p align="center">
    <img src="IMAGENES/Captura_14.png" alt="Archivo" height="300">
 </p>
