@@ -27,7 +27,7 @@
 
 ![Importar OVA](Captura_1.png)
 
-4. Asignar recursos recomendados:
+## 4. Asignar recursos recomendados:
 
 Falta Evidencia
 
