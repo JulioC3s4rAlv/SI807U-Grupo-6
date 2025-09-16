@@ -25,31 +25,24 @@ Falta evidencia
 
 ## 2. Importación del HDP Sandbox
 
-![Importar OVA](Caputa_1.png)
+![Importar OVA](Captura_1.png)
 
 4. Asignar recursos recomendados:
 
-![Importar OVA](ruta/a/imagen2.png)
-
-5. Finalizar y esperar a que se complete la importación  
-
-![Configuración de recursos](ruta/a/imagen3.png)
+Falta Evidencia
 
 ---
 
 ## 3. Configuración de red
 
-![Configuración de red](ruta/a/imagen4.png)
-
-4. Guardar cambios
-
-![Configuración de red](ruta/a/imagen4.png)
+![Configuración de red](Captura_2.png)
 
 ---
 
 ## 4. Primer arranque de la VM 
 
-![Inicio de Ambari](ruta/a/imagen5.png)
+![Inicio de Ambari](Captura_3.png)
+![Inicio de Ambari](Captura_4.png)
 
 4. Cambiar la contraseña del usuario `root` 
 
