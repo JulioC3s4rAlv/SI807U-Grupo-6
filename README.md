@@ -2,9 +2,9 @@
 Repositorio de trabajo para el cursos de Sistemas de Inteligencia de Negocio
 # Justificación del proyecto: Sistema de Inteligencia de Negocios para la Empresa X del Estado
 
-En la **Contraloría General de la República** la información clave de los distintos proyectos para generar o mejorar los servicios de los diferentes organismos del estado proviene principalmente del Ministerio de Economía y Finanzas (MEF); sin embargo, debido a la diversificación de la información y sus fuentes la generación de reportes es mayormente manual, lenta y con duplicidad de cifras, lo que limita la oportunidad y la calidad de las decisiones, así como la rendición de cuentas.
+En la **Subgerencia de Gestión de Inversiones** que forma parte de la **Contraloría General de la República** se evalúa la información clave de los distintos proyectos para generar o mejorar los servicios de los diferentes organismos del estado. Esta información proviene principalmente del Ministerio de Economía y Finanzas (MEF); sin embargo, debido a la diversificación de la información y sus fuentes la generación de reportes es mayormente manual, lenta y con duplicidad de cifras, lo que limita la oportunidad y la calidad de las decisiones, así como la rendición de cuentas.
 
-El proyecto propone implementar un **sistema de inteligencia de negocios (BI)** que consolide datos mediante procesos **ETL** hacia un **Datamart** institucional (fuente única de la verdad). Desde este repositorio se habilitarán dos capacidades: **tableros ejecutivos** para la toma de decisiones y **evaluación prospectiva** (analítica predictiva) para anticipar demanda, riesgos y desempeño programático.
+El proyecto propone implementar un **sistema de inteligencia de negocios (BI)** que consolide datos mediante procesos **ETL** hacia un **Datamart** del área; desde este repositorio se habilitarán dos capacidades: **tableros ejecutivos** para la toma de decisiones y **evaluación prospectiva** (analítica predictiva) en caso sea necesario anticipar demanda, riesgos y desempeño programático.
 
 La iniciativa se alinea con la **Política Nacional de Modernización de la Gestión Pública**, los principios de **Gobierno Abierto** y la **Transformación Digital**, al fortalecer la gestión basada en evidencia, la transparencia y la interoperabilidad con otras entidades del Estado. Asimismo, facilita el seguimiento del **PEI/POI**, la ejecución presupuestal y los compromisos de servicios a la ciudadanía.
 
@@ -22,7 +22,7 @@ La iniciativa se alinea con la **Política Nacional de Modernización de la Gest
 
 ## Alcance y entregables
 
-- Arquitectura de datos y **procesos ETL automatizados** desde fuentes internas y externas.  
+- **Arquitectura de datos y procesos ETL automatizados** desde fuentes internas y externas.  
 - **Datamart** temático documentado (diccionario, linaje, reglas de calidad).  
 - **Dashboards** ejecutivos y operativos con control de acceso y actualización programada.  
 - **Módulos analíticos** de evaluación prospectiva (pronósticos/segmentación/alertas).  
