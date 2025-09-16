@@ -1,56 +1,66 @@
-# SI807U-Grupo-6
-Repositorio de trabajo para el cursos de Sistemas de Inteligencia de Negocio
-# Justificación del proyecto: Sistema de Inteligencia de Negocios para la Empresa X del Estado
-
-En la **Subgerencia de Gestión de Inversiones** que forma parte de la **Contraloría General de la República** se evalúa la información clave de los distintos proyectos para generar o mejorar los servicios de los diferentes organismos del estado. Esta información proviene principalmente del Ministerio de Economía y Finanzas (MEF); sin embargo, debido a la diversificación de la información y sus fuentes la generación de reportes es mayormente manual, lenta y con duplicidad de cifras, lo que limita la oportunidad y la calidad de las decisiones, así como la rendición de cuentas.
-
-El proyecto propone implementar un **sistema de inteligencia de negocios (BI)** que consolide datos mediante procesos **ETL** hacia un **Datamart** del área; desde este repositorio se habilitarán dos capacidades: **tableros ejecutivos** para la toma de decisiones y **evaluación prospectiva** (analítica predictiva) en caso sea necesario anticipar demanda, riesgos y desempeño programático.
-
-La iniciativa se alinea con la **Política Nacional de Modernización de la Gestión Pública**, los principios de **Gobierno Abierto** y la **Transformación Digital**, al fortalecer la gestión basada en evidencia, la transparencia y la interoperabilidad con otras entidades del Estado. Asimismo, facilita el seguimiento del **PEI/POI**, la ejecución presupuestal y los compromisos de servicios a la ciudadanía.
+# 📊 SI807U - Grupo 6
+Repositorio de trabajo del curso **Sistemas de Inteligencia de Negocio (SI 807-U)**  
 
 ---
 
-## Beneficios esperados
+## 🚀 Avances del Proyecto
 
-- **Oportunidad y precisión**: reducción drástica del tiempo de preparación de reportes y eliminación de inconsistencias entre áreas.  
-- **Trazabilidad y control**: gobierno de datos, catálogos y auditoría del ciclo de vida de la información.  
-- **Mejor decisión pública**: tableros con indicadores críticos (finanzas, operación, calidad del servicio, cumplimiento) y alertas tempranas.  
-- **Prospectiva y eficiencia**: modelos que anticipen brechas de atención, riesgos de sobrecosto o subejecución y prioricen intervenciones.  
-- **Transparencia**: insumos para portales de consulta y reportes de rendición de cuentas.  
+### Semana 3: 08/09/2025
+- Elaboramos el **perfil de la empresa** y su **arquitectura inicial**.
 
----
-
-## Alcance y entregables
-
-- **Arquitectura de datos y procesos ETL automatizados** desde fuentes internas y externas.  
-- **Datamart** temático documentado (diccionario, linaje, reglas de calidad).  
-- **Dashboards** ejecutivos y operativos con control de acceso y actualización programada.  
-- **Módulos analíticos** de evaluación prospectiva (pronósticos/segmentación/alertas).  
-- **Gobernanza de datos**: políticas acorde al tipo de datos  
+### Semana 4: 15/09/2025
+- Realizamos el laboratorio de **Hortonworks Data Platform (HDP)** en VirtualBox.  
+- Exploramos la arquitectura de **Hadoop** y sus componentes (HDFS, YARN, Hive, Spark, Ambari, Zeppelin).  
+- Probamos consultas sobre el dataset **flights.csv** (registros de vuelos).  
 
 ---
 
-## Riesgos y mitigaciones
+## 📌 Justificación del Proyecto
+La **Contraloría General de la República**, en su Subgerencia de Gestión de Inversiones, necesita consolidar información de proyectos del MEF y otras fuentes. Actualmente los reportes son **manuales, lentos y con duplicidad de cifras**, lo que limita la calidad de las decisiones.
 
-- **Calidad de datos** → reglas de validación en ETL y responsabilidades claras.  
-- **Resistencia al cambio** → pilotos, formación y acompañamiento.  
-- **Interoperabilidad** → uso de estándares y APIs; cronograma por oleadas.  
-
----
-
-### Conclusión
-
-El sistema BI convertirá los datos de la Contraloría General de la República en un **activo estratégico**, habilitando decisiones oportunas, políticas públicas mejor focalizadas y mayor valor para la ciudadanía, con un esquema técnicamente sólido (**ETL → Datamart → Dashboards/Analítica**) y gobernado para perdurar.
+El proyecto busca implementar un **Sistema de Inteligencia de Negocios (BI)** que:  
+- Integre datos con **procesos ETL** en un **Datamart**.  
+- Genere **dashboards ejecutivos** para la toma de decisiones.  
+- Incorpore **analítica predictiva** para anticipar demanda, riesgos y desempeño.  
 
 ---
 
-## Planteamiento de KPIs
-#### Variación Prespuestal
-**Concepto**: 
-**Fórmula:** Variación presupuestal= (Presupuesto inicial-final) de cada proyecto
-#### Ratio de Ejecución de Proyecto
-**Concepto**: 
-**Fórmula:** % de ejecución presupuestal = (Monto ejecutado / Monto presupuestado) × 100.
-#### Etapa ponderada de DEMORA
-**Concepto**: Etapa en la que se identificó un cuello de botella
-**Fórmula:** Etapa ponderada de DEMORA = Etapa de Proyecto * Monto Asignado / Monto Presupuestado Total
+## ✅ Beneficios Esperados
+- Reducción de tiempo y eliminación de inconsistencias en reportes.  
+- Mayor trazabilidad y control de datos.  
+- Indicadores clave y alertas para la gestión pública.  
+- Modelos predictivos para anticipar riesgos y brechas.  
+- Insumos para transparencia y rendición de cuentas.  
+
+---
+
+## 📦 Alcance
+- **ETL** automatizados desde fuentes internas y externas.  
+- **Datamart** temático documentado.  
+- **Dashboards** con control de acceso.  
+- **Módulos analíticos** (pronósticos, segmentación, alertas).  
+- **Gobernanza de datos** con políticas claras.  
+
+---
+
+## ⚠️ Riesgos y Mitigación
+- **Calidad de datos** → validaciones en ETL.  
+- **Resistencia al cambio** → pilotos y capacitación.  
+- **Interoperabilidad** → estándares y APIs.  
+
+---
+
+## 📈 KPIs Propuestos
+- **Variación Presupuestal**  
+  Fórmula: `(Presupuesto inicial – final)` de cada proyecto.  
+
+- **Ratio de Ejecución de Proyecto**  
+  Fórmula: `(Monto ejecutado / Monto presupuestado) × 100`.  
+
+- **Etapa Ponderada de Demora**  
+  Fórmula: `(Etapa del Proyecto × Monto Asignado) / Monto Total`.  
+
+---
+
+## 🔎 Conclusión
+El sistema BI permitirá transformar los datos en un **activo estratégico**, mejorando la **toma de decisiones**, la **focalización de políticas públicas** y la **transparencia** hacia la ciudadanía.  
