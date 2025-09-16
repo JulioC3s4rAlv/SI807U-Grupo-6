@@ -1,89 +1,85 @@
-# Instalación de Hortonworks Sandbox en VirtualBox
+# 1. Instalación de Hortonworks Sandbox en VirtualBox
 
 
 ---
 
-## Requisitos mínimos
+## 0. Requisitos y Software requerido
 
 - **Sistema Operativo:** Windows, macOS o Linux  
 - **CPU:** Al menos 4 núcleos  
 - **Memoria RAM dedicada al clúster:** Mínimo 8 GB  
 - **Almacenamiento:** 65 GB de espacio libre en disco como mínimo    
 
----
-
-## Software requerido
-
-![Descarga](INSTALACION_ENTORNO/Descarga.png)
+![Descarga](Descarga.png)
 
 ---
 
 ## 1. Instalación de VirtualBox
 
-![Instalación de VirtualBox](ruta/a/imagen1.png)
+Ya se contaba con el VirtualBox Instalado
 
 ---
 
 ## 2. Importación del HDP Sandbox
 
-![Importar OVA](ruta/a/imagen2.png)
+![Importar OVA](Captura_1.png)
 
-4. Asignar recursos recomendados:
+## 4. Asignar recursos recomendados:
 
-![Importar OVA](ruta/a/imagen2.png)
-
-5. Finalizar y esperar a que se complete la importación  
-
-![Configuración de recursos](ruta/a/imagen3.png)
+Falta Evidencia
 
 ---
 
-## 3. Configuración de red
+## 5. Configuración de red
 
-![Configuración de red](ruta/a/imagen4.png)
-
-4. Guardar cambios
-
-![Configuración de red](ruta/a/imagen4.png)
+![Configuración de red](Captura_2.png)
 
 ---
 
-## 4. Primer arranque de la VM 
+## 6. Primer arranque de la VM 
 
-![Inicio de Ambari](ruta/a/imagen5.png)
+![Inicio de Ambari](Captura_3.png)
+![Inicio de Ambari](Captura_4.png)
 
-4. Cambiar la contraseña del usuario `root` 
+## 7. Cambiar la contraseña del usuario `root` 
 
-![Inicio de Ambari](ruta/a/imagen5.png)
+![Inicio de Ambari](Captura_5.png)
 
-5. También puedes usar el usuario por defecto:  
+
+## 8. Verificación del usuario por defecto:  
    - **Usuario:** `maria_dev`  
    - **Contraseña:** `maria_dev`
 
-![Inicio de Ambari](ruta/a/imagen5.png)
+![Inicio de Ambari](Captura_6.png)
+![Inicio de Ambari](Captura_7.png)
 
 
-6. Verificar que los servicios principales estén activos:  
+## 9. Verificar que los servicios principales estén activos:  
    - HDFS  
    - YARN  
    - Hive  
    - Spark  
    - Zeppelin
 
-![Servicios activos](ruta/a/imagen6.png)
+![Servicios activos](validacion_tools.png)
 
 ---
 
-## 5. Comprobación inicial
+## 10. Comprobación inicial
 
-Puedes realizar algunos comandos desde la terminal de la VM o usando el WebShell Client:
+![Validacion](lista_hdfs.png)
 
-```bash
-# Listar archivos en HDFS
-hdfs dfs -ls /
+---
+# 2. EXPLORANDO AMBARI
+## 1. Dashboards
+![Inicio de Ambari](Captura_7.png)
+## 2. HOSTS
+![Exploracion](Captura_8.png)
+## 3. ALERTAS
+![Exploracion](Captura_9.png)
 
-# Ver versión de Spark
-spark-shell --version
-
-# (Opcional) Reiniciar contraseña de Ambari
-ambari-admin-password-reset
+---
+# 3. Subida del archivo
+![Archivo](Captura_10.png)
+![Archivo](Captura_11.png)
+![Archivo](Captura_12.png)
