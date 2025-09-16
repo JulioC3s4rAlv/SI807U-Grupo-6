@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS flights_test;
+
+CREATE EXTERNAL TABLE flights_test (
+   year STRING,        -- Año como texto (ej. "2023")
+    month STRING,       -- Mes como texto (ej. "01" para enero)
+    day STRING,         -- Día como texto (ej. "01", "15", etc.)
+    dep_time STRING,    -- Hora de salida en formato HHMM como texto (ej. "1405" para 14:05)
+    dep_delay STRING,   -- Retraso de salida en minutos como texto (ej. "15" o "-5")
+    arr_time STRING,    -- Hora de llegada en formato HHMM como texto
+    arr_delay STRING,   -- Retraso de llegada en minutos como texto
+    carrier STRING,     -- Código de la aerolínea (ej. "AA" para American Airlines)
+    tailnum STRING,    -- Número de cola del avión (ej. "N12345")
+    flight STRING,      -- Número del vuelo (ej. "123", "AB456")
+    origin STRING,      -- Aeropuerto de salida (código IATA)
+    dest STRING,        -- Aeropuerto de destino (código IATA)
+    air_time STRING,    -- Tiempo de vuelo en minutos como texto (ej. "90")
+    distance STRING,    -- Distancia en millas como texto (ej. "250", "1200")
+    hour STRING,        -- Hora de salida como texto (ej. "14" para 14:00)
+    minute STRING       -- Minutos de salida como texto (ej. "05")
+)
+
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION '/test_flights/'
+TBLPROPERTIES ("skip.header.line.count"="1");
